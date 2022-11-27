@@ -1,4 +1,13 @@
 /* Color custom properties */
+@font-face {
+  font-family: 'Happy Birthday Mom';
+  src: url('happy-birthday-mom.regular.otf') format("opentype");
+}
+
+@font-face {
+  font-family: 'Mossion';
+  src: url('mossion.regular.otf') format("opentype");
+}
 
 :root,
 .color-background-1 {
