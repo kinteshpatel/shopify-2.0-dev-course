@@ -2274,6 +2274,17 @@ input[type='checkbox'] {
     grid-template-columns: 1fr auto;
   }
 
+  .header-wrapper::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    background-color: rgb(var(--color-foreground));
+    z-index: 1;
+  }
+
   .header--middle-left {
     grid-template-areas: 'navigation heading icons';
     grid-template-columns: auto 1fr auto;
